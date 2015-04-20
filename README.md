@@ -7,6 +7,8 @@ Run `sbt clean compile`
 
 If you change `build.sbt`'s `scalaVersion` to any `2.10.x` or `2.9.x` it works, but fails on `2.11.x`
 
+See the [compiler stack trace](build-output.txt) when running with 2.11.
+
 #### Note
 
 If you open this project in your IDE using Scala 2.11, your IDE will throw an exception.
